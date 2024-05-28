@@ -1,0 +1,91 @@
+baseURL: https://zhengrui.github.io/
+languageCode: en-us
+title: Rui Zheng
+theme: PaperMod
+paginate: 10
+
+enableRobotsTXT: true
+
+menu:
+  main:
+    - name: Posts
+      pageRef: /
+      weight: 1
+    - name: Archive
+      pageRef: /archives
+      weight: 5
+    - name: Search
+      pageRef: /search
+      weight: 10
+    - name: Tags
+      pageRef: /tags
+      weight: 10
+    - name: Ex
+      title: Former blog
+      url: https://zhengrui.github.io/former
+
+titleCaseStyle: 'none'
+
+taxonomies:
+      category: categories
+      tag: tags
+      series: series
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+          - - $
+            - $
+        enable: true
+
+
+params:
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowToc: true
+  TocOpen: false
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  math: true
+
+  homeInfoParams:
+    Title: "👋 Welcome to Rui's blog"
+    Content: >
+      Hi, this is Rui. I’m documenting my learning notes in this blog. I came from CS and Physics background,
+      worked on image search systems and computer vision devtools before. Now I am catching up with recent
+      developments of LLMs & LMMs.
+
+  socialIcons:
+    - name: linkedin
+      title: LinkedIn
+      url: "https://www.linkedin.com/in/rzhenguniq"
+    - name: googlescholar
+      title: Google scholar
+      url: "https://scholar.google.com/citations?user=X-Ch5bkAAAAJ&hl=en"
+    - name: github
+      title: Github
+      url: "https://github.com/ZhengRui"
+    - name: X
+      title: X
+      url: "https://x.com/rzhenguniq"
+    - name: rss
+      title: Rss
+      url: /index.xml
+    - name: KoFi
+      title: Buy me a Ko-Fi :)
