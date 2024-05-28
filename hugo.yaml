@@ -89,3 +89,6 @@ params:
       url: /index.xml
     - name: KoFi
       title: Buy me a Ko-Fi :)
+
+  assets:
+    favicon: favicon.png
