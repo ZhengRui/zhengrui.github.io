@@ -67,7 +67,7 @@ params:
   homeInfoParams:
     Title: "👋 Welcome to Rui's blog"
     Content: >
-      Hi, this is Rui. I’m documenting my learning notes in this blog. I came from CS and Physics background,
+      Hi, this is Rui. I’m documenting my learning notes in this blog. I came from a CS and Physics background,
       worked on image search systems and computer vision devtools before. Now I am catching up with recent
       developments of LLMs & LMMs.
 

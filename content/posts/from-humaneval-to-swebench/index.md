@@ -5,7 +5,7 @@ date: "2024-05-28"
 description: "A mini survey about code completion benchmarks."
 tags: ["llm", "code completion", "infill", "agent"]
 
-draft: true
+draft: false
 ---
 
 ### Dimensions
